@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.svilupposw.barcototurin.InserLocalActivity"
+    android:background="#b4c3e9">
+
+    <EditText
+        android:id="@+id/regLocalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/regLocaladdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Indirizzo"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/regLocalType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/regLocalManey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fasci di prezzo"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/regLocalHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Orari"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/regLocalContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contatti"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/registerLocal"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"
+        android:background="#fabf0f"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

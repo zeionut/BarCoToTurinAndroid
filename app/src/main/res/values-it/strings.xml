@@ -1,0 +1,28 @@
+<resources>
+
+<<<<<<< HEAD
+    <string name="app_name"><![CDATA[Bar & Co To Turin]]></string>
+=======
+    <string name="app_name">Bacheca annunci</string>
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+    <string name="welcome">Benvenuto</string>
+    <string name="loggedIn">Login effettuato!</string>
+    <string name="enter">Invia</string>
+    <string name="InvalidLogin">login non valido!</string>
+    <string name="birthYear">Anno di nascita:</string>
+    <string name="register">Registrati</string>
+    <string name="sign_up">Registrati</string>
+<<<<<<< HEAD
+    <string name="action_sign_in_short">Nome inserito troppo corto!</string>
+    <string name="age">anni</string>
+    <string name="email">email</string>
+    <string name="error">Errore!</string>
+    <string name="error_invalid_email">Email non valida!</string>
+    <string name="error_invalid_nickname">Nickname non alido!</string>
+    <string name="error_invalid_password">Password non valida!</string>
+    <string name="name">nickname</string>
+    <string name="password">pasword</string>
+=======
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+
+</resources>

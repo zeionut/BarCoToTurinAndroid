@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+=======
+    android:orientation="vertical" android:layout_width="match_parent"
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:paddingLeft="5dp"
+<<<<<<< HEAD
+    android:paddingRight="15dp"
+    android:background="#b4c3e9">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/point"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="35dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp">
+=======
+    android:paddingRight="15dp">
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/localName"
+        android:text="element empty"
+<<<<<<< HEAD
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+        <TextView
+=======
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/localType"
+        android:text="element empty"
+<<<<<<< HEAD
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+=======
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" />
+
+>>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+</LinearLayout>
