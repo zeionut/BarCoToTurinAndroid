@@ -8,11 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-<<<<<<< HEAD
     tools:context="com.example.svilupposw.barcototurin.InserLocalActivity"
-=======
-    tools:context="com.example.svilupposw.pagelogin.MainActivity"
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
     android:background="#b4c3e9">
 
     <TextView
@@ -36,11 +32,7 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-<<<<<<< HEAD
         android:layout_gravity="center_horizontal|left"
-=======
-        android:layout_gravity="center_horizontal"
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
         android:textColor="#ffffff"
         android:drawableLeft="@drawable/mail"/>
 
@@ -63,11 +55,7 @@
         android:layout_marginTop="25dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-<<<<<<< HEAD
         android:layout_gravity="center_horizontal|left"
-=======
-        android:layout_gravity="center_horizontal"
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
         android:textColor="#ffffff"
         android:drawableLeft="@drawable/password" />
 
@@ -81,7 +69,6 @@
         android:layout_alignStart="@+id/editText2"
         android:textColor="#ffffff" />
 
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -115,32 +102,4 @@
             android:layout_marginLeft="60dp" />
 
     </LinearLayout>
-=======
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/enter"
-        android:id="@+id/buttonLogin"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:layout_gravity="center_horizontal"
-        android:allowUndo="false"
-        android:background="#fabf0f"
-        android:textColor="#ffffff" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register"
-        android:id="@+id/buttonRegister"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
-        android:layout_gravity="center_horizontal"
-        android:allowUndo="false"
-        android:background="#fabf0f"
-        android:textColor="#ffffff" />
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
-
 </LinearLayout>
