@@ -1,6 +1,5 @@
 package com.example.svilupposw.barcototurin;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -104,17 +103,6 @@ public class ListLocalActivity extends AppCompatActivity {
                 }
 
             });
-
-=======
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class ListLocalActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_local);
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
+            
     }
 }
