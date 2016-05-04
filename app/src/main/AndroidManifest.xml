@@ -19,12 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListLocalActivity" />
-<<<<<<< HEAD
         <activity android:name=".RegistrationMainActivity" />
         <activity android:name=".InserLocalActivity"></activity>
-=======
-        <activity android:name=".RegistrationMainActivity"></activity>
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
     </application>
 
 </manifest>

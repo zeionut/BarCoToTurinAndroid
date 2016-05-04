@@ -22,11 +22,13 @@
         android:allowUndo="false"
         android:background="#fabf0f"
         android:textColor="#ffffff"
-        android:layout_marginLeft="30dp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/listLocal">
     </ListView>
+
 </LinearLayout>

@@ -66,7 +66,9 @@ public class MyAdapter extends BaseAdapter {
 
         localName.setText(((Local) getItem(position)).getName());
         localType.setText(((Local) getItem(position)).getType());
-        
+
+
+
         return convertView;
     }
 

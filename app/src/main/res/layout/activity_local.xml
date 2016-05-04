@@ -15,7 +15,7 @@
         android:id="@+id/imageView"
         android:src="@drawable/point"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="35dp" />
+        android:layout_marginLeft="15dp" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -33,9 +33,10 @@
         android:text="element empty"
         android:textColor="#ffffff"
         android:textSize="14dp"
-        android:gravity="center_horizontal"
         android:layout_marginTop="5dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp" />
 
         <TextView
         android:layout_width="match_parent"
@@ -45,9 +46,10 @@
         android:textColor="#ffffff"
         android:textSize="14dp"
         android:layout_gravity="top"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="5dp"
-            android:textStyle="italic" />
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp" />
 
     </LinearLayout>
 </LinearLayout>

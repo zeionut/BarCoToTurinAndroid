@@ -5,7 +5,6 @@ package com.example.svilupposw.barcototurin;
  */
 public class Local {
 
-
     protected String id;
     protected String name;
     protected String address;
@@ -30,7 +29,6 @@ public class Local {
     }
 
     public Local(String id, String name, String address, String type, String money, String contact, String hours) {
-
         this.id = id;
         this.name = name;
         this.address = address;

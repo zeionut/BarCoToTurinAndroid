@@ -47,7 +47,7 @@
         android:textColor="#ffffff" />
 
     <TextView
-        android:layout_width="180dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Password:"
@@ -75,7 +75,8 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/enter"
             android:id="@+id/buttonLogin"
@@ -85,10 +86,12 @@
             android:allowUndo="false"
             android:background="#fabf0f"
             android:textColor="#ffffff"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/register"
             android:id="@+id/buttonRegister"
@@ -97,9 +100,10 @@
             android:allowUndo="false"
             android:background="#fabf0f"
             android:textColor="#ffffff"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="25dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="60dp" />
+            android:layout_marginLeft="25dp" />
 
     </LinearLayout>
+
 </LinearLayout>

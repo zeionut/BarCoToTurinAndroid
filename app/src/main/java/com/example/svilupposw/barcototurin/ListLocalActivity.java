@@ -103,6 +103,6 @@ public class ListLocalActivity extends AppCompatActivity {
                 }
 
             });
-            
+
     }
 }

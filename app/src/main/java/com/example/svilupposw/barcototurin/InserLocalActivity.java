@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 
@@ -38,25 +39,37 @@ public class InserLocalActivity extends AppCompatActivity {
                     String contact = regLocalContact.getText().toString();
                     String hours = regLocalHours.getText().toString();
 
-                    Firebase localRef = MyApplication.getMyFirebaseRef().child("Local");
-                    Firebase newLocalRef = localRef.push();
+                    if (!name.equals("") && !address.equals("") && !type.equals("") && !maney.equals("")
+                            && !contact.equals("") && !hours.equals("")) {
 
-                    Local item = new Local(name, address, type, maney, contact, hours);
+                        Firebase localRef = MyApplication.getMyFirebaseRef().child("Local");
+                        Firebase newLocalRef = localRef.push();
 
-                    item.setId(newLocalRef.getKey());
+                        Local item = new Local(name, address, type, maney, contact, hours);
 
-                    newLocalRef.setValue(item);
+                        item.setId(newLocalRef.getKey());
 
-                    regLocalName.setText("");
-                    regLocaladdress.setText("");
-                    regLocalType.setText("");
-                    regLocalManey.setText("");
-                    regLocalContact.setText("");
-                    regLocalHours.setText("");
+                        newLocalRef.setValue(item);
 
-                    Intent intent = new Intent(getApplicationContext(), ListLocalActivity.class);
+                        regLocalName.setText("");
+                        regLocaladdress.setText("");
+                        regLocalType.setText("");
+                        regLocalManey.setText("");
+                        regLocalContact.setText("");
+                        regLocalHours.setText("");
 
-                    startActivity(intent);
+                        Intent intent = new Intent(getApplicationContext(), ListLocalActivity.class);
+
+                        startActivity(intent);
+
+                    } else {
+
+                        Toast.makeText(getApplicationContext(), getApplicationContext().getResources().getString(R.string.error),
+                                Toast.LENGTH_LONG).show();
+
+                    }
+
+
                 }
 
             });
