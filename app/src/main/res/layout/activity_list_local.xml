@@ -8,7 +8,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-<<<<<<< HEAD
     tools:context="com.example.svilupposw.barcototurin.ListLocalActivity"
     android:background="#b4c3e9">
 
@@ -30,13 +29,4 @@
         android:layout_height="match_parent"
         android:id="@+id/listLocal">
     </ListView>
-=======
-    tools:context="com.example.svilupposw.barcototurin.ListLocalActivity">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/listLocal"></ScrollView>
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
-
 </LinearLayout>
