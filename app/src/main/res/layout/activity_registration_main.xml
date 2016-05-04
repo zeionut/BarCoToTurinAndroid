@@ -8,7 +8,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-<<<<<<< HEAD
     tools:context="com.example.svilupposw.barcototurin.InserLocalActivity"
     android:background="#b4c3e9">
 
@@ -87,79 +86,4 @@
         android:gravity="center_vertical|center_horizontal"
         android:layout_gravity="center_horizontal" />
 
-=======
-    tools:context="com.engim.matteo_zarro.noticeboard.RegistrationMainActivity">
-    <LinearLayout
-        android:id="@+id/email_login_form"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/email"
-                android:imeOptions="actionNext"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:singleLine="true"
-                android:drawableLeft="@drawable/mail"
-                android:drawablePadding="8dp"/>
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/password"
-                android:imeActionId="@+id/login"
-                android:imeActionLabel="@string/action_sign_in_short"
-                android:imeOptions="actionUnspecified"
-                android:inputType="textPassword"
-                android:maxLines="1"
-                android:singleLine="true"
-                android:drawableLeft="@drawable/password"
-                android:drawablePadding="8dp"/>
-
-            <EditText
-                android:id="@+id/nickname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/name"
-                android:imeActionId="@+id/login"
-                android:imeActionLabel="@string/action_sign_in_short"
-                android:imeOptions="actionUnspecified"
-                android:inputType="textPersonName"
-                android:maxLines="1"
-                android:singleLine="true"
-                android:drawableLeft="@drawable/mail"
-                android:drawablePadding="8dp"/>
-
-        <EditText
-            android:id="@+id/age"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/age"
-            android:imeActionId="@+id/login"
-            android:imeActionLabel="@string/action_sign_in_short"
-            android:imeOptions="actionUnspecified"
-            android:inputType="number"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:drawableLeft="@drawable/mail"
-            android:drawablePadding="8dp"/>
-
-        <Button
-            android:id="@+id/sign_up_button"
-            style="?android:textAppearanceSmall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/sign_up"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:background="@color/colorAccent"
-            android:layout_marginBottom="30dp"/>
-    </LinearLayout>
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
 </LinearLayout>
