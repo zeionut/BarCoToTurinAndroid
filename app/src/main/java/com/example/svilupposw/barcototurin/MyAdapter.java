@@ -58,10 +58,6 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         if (convertView == null) {
-<<<<<<< HEAD
-=======
-
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
             convertView = LayoutInflater.from(context).inflate(R.layout.activity_local, parent, false);
         }
 
@@ -70,9 +66,7 @@ public class MyAdapter extends BaseAdapter {
 
         localName.setText(((Local) getItem(position)).getName());
         localType.setText(((Local) getItem(position)).getType());
-
-
-
+        
         return convertView;
     }
 
