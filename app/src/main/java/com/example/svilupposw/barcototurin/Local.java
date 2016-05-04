@@ -5,11 +5,8 @@ package com.example.svilupposw.barcototurin;
  */
 public class Local {
 
-<<<<<<< HEAD
+
     protected String id;
-=======
-    protected int id;
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
     protected String name;
     protected String address;
     protected String type;
@@ -17,7 +14,6 @@ public class Local {
     protected String contact;
     protected String hours;
 
-<<<<<<< HEAD
     public Local() {}
 
     public Local(String id) {
@@ -34,13 +30,7 @@ public class Local {
     }
 
     public Local(String id, String name, String address, String type, String money, String contact, String hours) {
-=======
-    public Local(int id) {
-        this.id = id;
-    }
 
-    public Local(int id, String name, String address, String type, String money, String contact, String hours) {
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
         this.id = id;
         this.name = name;
         this.address = address;
@@ -50,19 +40,11 @@ public class Local {
         this.hours = hours;
     }
 
-<<<<<<< HEAD
     public String getId() {
         return id;
     }
 
     public void setId(String id) {
-=======
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
->>>>>>> 517741dea19e0ed98d2a793b733b6310bd0ded1b
         this.id = id;
     }
 
